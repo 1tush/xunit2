@@ -29,7 +29,7 @@ class Xunit2(Xunit):
         doc = test.test._testMethodDoc
         if doc is not None:
             doc = doc.strip()
-            return ":%s" % doc
+            return ":  %s" % doc
         else:
             return ""
 
